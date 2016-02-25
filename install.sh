@@ -6,4 +6,5 @@ cat <<EOF >> ~/.bashrc
 [[ \$- = *i*  ]] && source ~/.liquidprompt/liquidprompt
 EOF
 rsync liquidpromptrc ~/.liquidpromptrc
+touch ~/.liquidprompt/installed
 echo LIFE IS LIQUID NOW
